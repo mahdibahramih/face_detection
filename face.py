@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-face = cv2.CascadeClassifier('eye.xml')
-eye = cv2.CascadeClassifier('ffffffff.xml')
+face = cv2.CascadeClassifier('face.xml')
+eye = cv2.CascadeClassifier('eye.xml')
 cap = cv2.VideoCapture(0)
 while(cap.isOpened()):
 	ret, frame = cap.read()
